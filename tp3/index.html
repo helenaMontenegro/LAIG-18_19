@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CGFexample</title>
+
+<style>
+body, html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+#marker {
+    background-color: rgba(0, 0, 0, 0.733);
+    width:200px;
+    position:fixed;
+    color: white;
+    padding: 1.2em 0em;
+    font-family: 'Georgia';
+}
+
+#marker h3 {
+    
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#marker h4 {
+    font-size: 0.9em;
+    padding: 0em 1.2em;
+}
+
+#marker p {
+    padding: 0em 1.2em;
+    font-size: 0.8em;
+
+}
+
+#marker div{
+    border-top: 5px solid rgb(151, 151, 151);
+}
+</style>
+</head>
+<body>
+
+<script src="main.js"></script>
+<section id="marker">
+    <h3>Cam</h3>
+    <div id="points">
+        <h4>Points:</h4> 
+        <p>White 0-0 Black</p>
+    </div>
+    <div id="time">
+        <h4>Time:</h4> 
+        <p>0:30</p>
+    </div>
+    <div id="message">
+        <h4>Message:</h4>
+        <p>Choose Start Game to play!</p>
+    </div>
+</section>
+
+</body>
+</html>
